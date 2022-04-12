@@ -1,0 +1,14 @@
+.anas-bg{
+    background-color: #4477c9;
+}
+
+.body{
+    background: rgb(168,144,255);
+background: linear-gradient(90deg, rgba(168,144,255,1) 0%, rgba(170,190,255,1) 36%, rgba(106,215,252,1) 100%);
+}
+.form-shadow{
+    box-shadow: 10px -10px white;
+}
+#form-login{
+    margin-top: -400px;
+}
