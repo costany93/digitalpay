@@ -23,6 +23,7 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
+Route::get('/digi', [DigipayController::class, 'index'])->name('digipay-index');
 Route::get('/', [DigipayController::class, 'index'])->name('digipay-index');
 Route::post('/getApiUrl', [DigipayController::class, 'getApiUrl'])->name('digipay-getApiUrl');
 Route::post('/ipn', [DigipayController::class, 'digipayNotification'])->name('digipay-notification');
